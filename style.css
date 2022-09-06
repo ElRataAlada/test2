@@ -291,4 +291,73 @@ main {
 #vector {
   font-size: 90px;
   margin-left: 5px;
+}
+
+@media (min-height: 1000px) {
+  html {
+    transform: scale(1.5) translateY(10%);
+  }
+}
+@media (max-height: 680px) {
+  html {
+    transform: scale(0.8) translateY(-10%);
+  }
+}
+@media (max-height: 580px) {
+  html {
+    transform: scale(0.7) translateY(-15%);
+  }
+}
+@media (max-height: 570px) {
+  html {
+    transform: scale(0.6) translateY(-15%);
+  }
+}
+@media (max-width: 830px) {
+  html {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(0.8) translate(-65%, -65%);
+  }
+}
+@media (max-width: 750px) {
+  html {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(0.7) translate(-75%, -70%);
+  }
+}
+@media (max-width: 692px) {
+  html {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(0.6) translate(-100%, -80%);
+  }
+}
+@media (max-width: 628px) {
+  html {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(0.5) translate(-120%, -100%);
+  }
+}
+@media (max-width: 540px) {
+  html {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(0.5) translate(-130%, -100%);
+  }
+}
+@media (max-width: 482px) {
+  html {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(0.45) translate(-140%, -100%);
+  }
 }/*# sourceMappingURL=style.css.map */
